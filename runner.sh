@@ -65,3 +65,5 @@ elif [ "$commit_count" -lt "$REQUIRED_COUNT" ]; then
 else
   echo -e "${GREEN}✅ $commit_count commits made in the past hour.${RESET}"
 fi
+
+exit $err
